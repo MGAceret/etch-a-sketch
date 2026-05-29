@@ -1,0 +1,17 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gridDisplay {
+    display: flex;
+    flex-wrap: wrap;
+    width: 832px;
+}
+.gridDisplay div {
+    border: 1px solid;
+    background-color: gray;
+    width: 50px;
+    height: 50px;
+}
